@@ -1,13 +1,16 @@
 ﻿using System;
+using hue;
 
 namespace plugins
 {
-    public class Plugin : IPlugin
+    public class Plugin : IDoSomething, IPlugin
     {
-        public string Name { get; set; }
-
-        public string HelloWord(string something) {
+        public string HelloWorld(string something) {
             return $"Hello, {something}";
+        }
+
+        public string DoIt(){
+            return "Vai se fuder!";
         }
     }
 }

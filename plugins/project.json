@@ -4,7 +4,11 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "hue": {
+      "target": "project"
+    }
+  },
   "frameworks": {
     "netcoreapp1.1": {
       "dependencies": {

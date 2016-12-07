@@ -4,21 +4,21 @@
     "debugType": "portable",
     "emitEntryPoint": true
   },
-  "dependencies": {},
+  "dependencies": {
+    "System.Runtime": "4.3.0",
+    "Microsoft.Extensions.DependencyModel": "1.1.0",
+    "System.Runtime.Loader": "4.3.0",
+    "System.Reflection": "4.3.0",
+    "hue": {
+      "target": "project"
+    }
+  },
   "frameworks": {
     "netcoreapp1.1": {
       "dependencies": {
         "Microsoft.NETCore.App": {
           "type": "platform",
           "version": "1.1.0"
-        },
-        "Microsoft.Extensions.DependencyModel": "1.1.0",
-        "System.Runtime.Loader": "4.0.0",
-        "System.Reflection": "4.0.0",
-        "System.Runtime": "4.0.0",
-        "System.IO": "4.0.0",
-        "plugins": {
-          "target": "project"
         }
       },
       "imports": "dnxcore50"
